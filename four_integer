@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+        int P,Q,R,S;
+         cout<<"enter a integer 1: "<<endl;
+cin>>P;
+         cout<<"enter a integer 2: "<<endl;
+cin>>Q;
+         cout<<"enter a integer 3: "<<endl;
+cin>>R;
+         cout<<"enter a integer 4: "<<endl;
+cin>>S;
+if (P> Q> R> S){
+cout<<"max value is: "<<P;
+cout<<"second max value is"<<Q;
+}
+else if (Q> R> S> P){
+cout<<"max value is: "<<Q;
+cout<<"second max value is"<<R;
+}
+else if (R> S> P> Q){
+cout<<"max value is: "<<R;
+cout<<"second max value is"<<S;
+}
+else if (Q> R> S){
+cout<<"max value is: "<<P;
+cout<<"second max value is"<<Q;
+
+     
