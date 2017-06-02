@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+int N;
+cout<<"enter a number"<<endl;
+cin>>N;
+if (N/2==1){
+cout<<"not prime"<<endl;
+}
+if (N/2!=1){
+cout<<"prime"<<endl;
+}
+return 0;
+}
+
